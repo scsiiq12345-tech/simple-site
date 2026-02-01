@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-i18n="contact_page_title">Контакты</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="page-contact page-transition">
+    <header>
+      <h1 data-i18n="contact_page_title">Связаться с нами</h1>
+      <p data-i18n="contact_page_subtitle">Мы на связи каждый будний день с 10:00 до 19:00.</p>
+      <nav class="site-nav">
+        <a href="index.html#hero" class="nav-link" data-i18n="nav_home">Главная</a>
+        <a href="index.html#features" class="nav-link" data-i18n="nav_features">Преимущества</a>
+        <a href="index.html#about" class="nav-link" data-i18n="nav_about">О нас</a>
+        <a href="index.html#contact" class="nav-link" data-i18n="nav_contact">Контакты</a>
+        <a href="about.html" class="nav-link" data-i18n="nav_about_page">Страница о нас</a>
+        <a href="services.html" class="nav-link" data-i18n="nav_services_page">Услуги</a>
+        <a href="contact.html" class="nav-link" data-i18n="nav_contact_page">Связаться</a>
+      </nav>
+      <nav class="section-nav">
+        <a href="#contacts" class="nav-link" data-i18n="sn_contacts">Контакты</a>
+        <a href="#hours" class="nav-link" data-i18n="sn_hours">График</a>
+        <a href="#form" class="nav-link" data-i18n="sn_form">Форма</a>
+      </nav>
+      <div class="header-actions">
+        <button class="toggle-theme" type="button">Светлая тема</button>
+        <button class="toggle-lang" type="button">EN</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="card hero reveal">
+        <div>
+          <span class="badge" data-i18n="contact_badge">Ответ в течение дня</span>
+          <h2 data-i18n="contact_hero_title">Поговорим о проекте</h2>
+          <p data-i18n="contact_hero_text">
+            Опишите задачу, и мы предложим оптимальный формат работы,
+            сроки и бюджет.
+          </p>
+          <div class="hero-icons">
+            <div class="hero-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M4 4h16v10H7l-3 3V4zm3 3v2h10V7H7zm0 4v2h6v-2H7z"
+                />
+              </svg>
+            </div>
+            <div class="hero-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M12 2a7 7 0 0 0-7 7c0 2.6 1.4 4.9 3.6 6.1L8 22l4-2 4 2-.6-6.9A7 7 0 0 0 19 9a7 7 0 0 0-7-7zm0 3 1.7 3.5 3.9.6-2.8 2.7.7 3.9L12 14.4 8.5 15.7l.7-3.9-2.8-2.7 3.9-.6L12 5z"
+                />
+              </svg>
+            </div>
+            <div class="hero-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M6 2h12v4H6V2zm-2 6h16v14H4V8zm4 3v6h8v-6H8z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="hero-visual hero-visual--contact" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section id="contacts" class="card reveal">
+        <h2 data-i18n="contact_details_title">Контактные данные</h2>
+        <div class="grid">
+          <div class="feature">
+            <h3 data-i18n="contact_email_title">Email</h3>
+            <p>hello@simple-site.ru</p>
+          </div>
+          <div class="feature">
+            <h3 data-i18n="contact_phone_title">Телефон</h3>
+            <p>+7 (999) 123‑45‑67</p>
+          </div>
+          <div class="feature">
+            <h3 data-i18n="contact_address_title">Адрес</h3>
+            <p data-i18n="contact_address_text">Москва, ул. Примерная, 10</p>
+          </div>
+          <div class="feature">
+            <h3 data-i18n="contact_messengers_title">Мессенджеры</h3>
+            <p data-i18n="contact_messengers_text">Telegram и WhatsApp: @simple-site</p>
+          </div>
+        </div>
+        <div style="margin-top: 16px;">
+          <iframe
+            class="map"
+            title="Карта офиса"
+            data-i18n-title="contact_map_title"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=37.606%2C55.745%2C37.626%2C55.755&layer=mapnik&marker=55.75%2C37.616"
+          ></iframe>
+        </div>
+      </section>
+
+      <section id="hours" class="card reveal">
+        <h2 data-i18n="contact_hours_title">График работы</h2>
+        <p data-i18n="contact_hours_p1">Пн–Пт: 10:00–19:00, Сб: 11:00–16:00, Вс: выходной.</p>
+        <p data-i18n="contact_hours_p2">Срочные запросы — по договорённости.</p>
+      </section>
+
+      <section id="form" class="card reveal">
+        <h2 data-i18n="contact_form_title">Напишите нам</h2>
+        <p data-i18n="contact_form_intro">Заполните форму, и мы ответим как можно быстрее.</p>
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/your-id"
+          method="POST"
+          novalidate
+        >
+          <label>
+            <span data-i18n="label_name">Имя</span>
+            <input
+              type="text"
+              name="name"
+              placeholder="Ваше имя"
+              data-i18n-placeholder="ph_name"
+              required
+            />
+            <span class="field-hint" aria-live="polite"></span>
+          </label>
+          <label>
+            <span data-i18n="label_email">Email</span>
+            <input
+              type="email"
+              name="email"
+              placeholder="you@email.com"
+              data-i18n-placeholder="ph_email"
+              required
+            />
+            <span class="field-hint" aria-live="polite"></span>
+          </label>
+          <label>
+            <span data-i18n="label_topic">Тема</span>
+            <input
+              type="text"
+              name="topic"
+              placeholder="Например: новый сайт"
+              data-i18n-placeholder="ph_topic"
+              required
+            />
+            <span class="field-hint" aria-live="polite"></span>
+          </label>
+          <label>
+            <span data-i18n="label_message">Сообщение</span>
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Опишите задачу"
+              data-i18n-placeholder="ph_message"
+              required
+            ></textarea>
+            <span class="field-hint" aria-live="polite"></span>
+          </label>
+          <button type="submit" class="cta" data-i18n="btn_send">
+            Отправить сообщение
+          </button>
+          <p class="form-status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="reveal">
+      <div class="footer-content">
+        <div data-i18n="footer_rights">© 2026 Простой сайт. Все права защищены.</div>
+        <div class="social-links">
+          <a class="social-link" href="https://t.me/simple-site" target="_blank" rel="noreferrer">
+            <svg aria-hidden="true">
+              <use href="icons.svg#icon-telegram"></use>
+            </svg>
+            Telegram
+          </a>
+          <a class="social-link" href="https://vk.com/simple-site" target="_blank" rel="noreferrer">
+            <svg aria-hidden="true">
+              <use href="icons.svg#icon-vk"></use>
+            </svg>
+            ВКонтакте
+          </a>
+          <a class="social-link" href="https://www.behance.net/simple-site" target="_blank" rel="noreferrer">
+            <svg aria-hidden="true">
+              <use href="icons.svg#icon-behance"></use>
+            </svg>
+            Behance
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-i18n="thanks_title">Спасибо за сообщение</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="page-thanks page-transition">
+    <header>
+      <h1 data-i18n="thanks_heading">Спасибо!</h1>
+      <p data-i18n="thanks_subtitle">Мы получили ваше сообщение и скоро ответим.</p>
+      <nav class="site-nav">
+        <a href="index.html#hero" class="nav-link" data-i18n="nav_home">Главная</a>
+        <a href="index.html#features" class="nav-link" data-i18n="nav_features">Преимущества</a>
+        <a href="index.html#about" class="nav-link" data-i18n="nav_about">О нас</a>
+        <a href="index.html#contact" class="nav-link" data-i18n="nav_contact">Контакты</a>
+        <a href="about.html" class="nav-link" data-i18n="nav_about_page">Страница о нас</a>
+        <a href="services.html" class="nav-link" data-i18n="nav_services_page">Услуги</a>
+        <a href="contact.html" class="nav-link" data-i18n="nav_contact_page">Связаться</a>
+      </nav>
+      <div class="header-actions">
+        <button class="toggle-theme" type="button">Светлая тема</button>
+        <button class="toggle-lang" type="button">EN</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="card hero reveal">
+        <div>
+          <span class="badge" data-i18n="thanks_badge">Сообщение отправлено</span>
+          <h2 data-i18n="thanks_hero_title">Мы свяжемся с вами в течение дня</h2>
+          <p data-i18n="thanks_hero_text">
+            Пока вы ждёте ответ, можно посмотреть портфолио или изучить наши
+            услуги.
+          </p>
+          <div class="hero-icons">
+            <div class="hero-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M12 2 3 6v6c0 5 3.4 9.5 9 10 5.6-.5 9-5 9-10V6l-9-4zm-1 6h2v6h-2V8zm0 8h2v2h-2v-2z"
+                />
+              </svg>
+            </div>
+            <div class="hero-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M12 4a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm1 4v5h4v2h-6V8h2z"
+                />
+              </svg>
+            </div>
+            <div class="hero-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M5 5h14v4H5V5zm0 6h14v8H5v-8zm3 2v4h8v-4H8z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="hero-visual hero-visual--thanks" aria-hidden="true"></div>
+          <a class="cta" href="services.html" data-i18n="thanks_cta">
+            Посмотреть услуги →
+          </a>
+        </div>
+      </section>
+
+      <section class="card reveal">
+        <h2 data-i18n="thanks_block_title">Пока вы ждёте</h2>
+        <p data-i18n="thanks_block_text">
+          Мы можем подготовить предварительное предложение по вашему запросу.
+          Если хотите ускорить процесс, добавьте в сообщение ссылки на сайты
+          конкурентов или примеры, которые вам нравятся.
+        </p>
+        <a class="cta" href="index.html#contact" data-i18n="thanks_back">
+          Вернуться на главную
+        </a>
+      </section>
+    </main>
+
+    <footer class="reveal">
+      <div class="footer-content">
+        <div data-i18n="footer_rights">© 2026 Простой сайт. Все права защищены.</div>
+        <div class="social-links">
+          <a class="social-link" href="https://t.me/simple-site" target="_blank" rel="noreferrer">
+            <svg aria-hidden="true">
+              <use href="icons.svg#icon-telegram"></use>
+            </svg>
+            Telegram
+          </a>
+          <a class="social-link" href="https://vk.com/simple-site" target="_blank" rel="noreferrer">
+            <svg aria-hidden="true">
+              <use href="icons.svg#icon-vk"></use>
+            </svg>
+            ВКонтакте
+          </a>
+          <a class="social-link" href="https://www.behance.net/simple-site" target="_blank" rel="noreferrer">
+            <svg aria-hidden="true">
+              <use href="icons.svg#icon-behance"></use>
+            </svg>
+            Behance
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

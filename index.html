@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-i18n="home_title">Простой сайт</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="page-home page-transition">
+    <header>
+      <h1 data-i18n="home_title">Простой веб‑сайт</h1>
+      <p data-i18n="home_subtitle">Чистая структура, приятный стиль и всё в одном файле.</p>
+      <nav class="site-nav">
+        <a href="index.html#hero" class="nav-link" data-i18n="nav_home">Главная</a>
+        <a href="index.html#features" class="nav-link" data-i18n="nav_features">Преимущества</a>
+        <a href="index.html#about" class="nav-link" data-i18n="nav_about">О нас</a>
+        <a href="index.html#contact" class="nav-link" data-i18n="nav_contact">Контакты</a>
+        <a href="about.html" class="nav-link" data-i18n="nav_about_page">Страница о нас</a>
+        <a href="services.html" class="nav-link" data-i18n="nav_services_page">Услуги</a>
+        <a href="contact.html" class="nav-link" data-i18n="nav_contact_page">Связаться</a>
+      </nav>
+      <nav class="section-nav">
+        <a href="#hero" class="nav-link" data-i18n="sn_start">Старт</a>
+        <a href="#features" class="nav-link" data-i18n="sn_key">Ключевое</a>
+        <a href="#about" class="nav-link" data-i18n="sn_story">История</a>
+        <a href="#contact" class="nav-link" data-i18n="sn_form">Форма</a>
+      </nav>
+      <div class="header-actions">
+        <button class="toggle-theme" type="button">Светлая тема</button>
+        <button class="toggle-lang" type="button">EN</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="card hero reveal">
+        <div>
+          <span class="badge" data-i18n="home_badge">Сайт за 5 минут</span>
+          <h2 data-i18n="home_hero_title">Стартовая страница для вашего проекта</h2>
+          <p data-i18n="home_hero_text">
+            Здесь можно быстро рассказать, чем вы занимаетесь, и
+            добавить ключевые преимущества.
+          </p>
+          <div class="hero-icons">
+            <div class="hero-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M12 3 3 7v6c0 4.4 3.1 8.5 9 9.9 5.9-1.4 9-5.5 9-9.9V7l-9-4zm0 4.2 4.9 2.2v3.3c0 2.7-1.9 5.2-4.9 6-3-0.8-4.9-3.3-4.9-6V9.4L12 7.2z"
+                />
+              </svg>
+            </div>
+            <div class="hero-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M4 12h6l2-6 2 6h6l-5 4 2 6-5-4-5 4 2-6-5-4z"
+                />
+              </svg>
+            </div>
+            <div class="hero-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M6 4h12v4H6V4zm0 6h12v10H6V10zm2 2v6h8v-6H8z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="hero-visual hero-visual--home" aria-hidden="true"></div>
+          <a class="cta" href="#features" data-i18n="home_cta">Посмотреть возможности →</a>
+        </div>
+      </section>
+
+      <section id="features" class="card reveal">
+        <h2 data-i18n="features_title">Преимущества для веб‑студии</h2>
+        <p data-i18n="features_intro">
+          Мы делаем сайты, которые помогают бизнесу быстро запускаться,
+          собирать заявки и выглядеть современно без лишней сложности.
+        </p>
+        <div class="grid">
+          <div class="feature">
+            <h3 data-i18n="feature_light_title">Лёгкий дизайн</h3>
+            <p data-i18n="feature_light_text">
+              Собираем чистые макеты без перегруза и лишних деталей.
+            </p>
+          </div>
+          <div class="feature">
+            <h3 data-i18n="feature_responsive_title">Адаптивность</h3>
+            <p data-i18n="feature_responsive_text">
+              Страницы одинаково хорошо выглядят на всех устройствах.
+            </p>
+          </div>
+          <div class="feature">
+            <h3 data-i18n="feature_ready_title">Готово к запуску</h3>
+            <p data-i18n="feature_ready_text">
+              Подготовим структуру и тексты, чтобы не терять время.
+            </p>
+          </div>
+          <div class="feature">
+            <h3 data-i18n="feature_fast_title">Быстрое внедрение</h3>
+            <p data-i18n="feature_fast_text">
+              План и смета в первый день, дизайн — через 3–5 дней.
+            </p>
+          </div>
+          <div class="feature">
+            <h3 data-i18n="feature_reports_title">Отчётность</h3>
+            <p data-i18n="feature_reports_text">
+              Даём промежуточные версии и фиксируем статус задач.
+            </p>
+          </div>
+          <div class="feature">
+            <h3 data-i18n="feature_support_title">Поддержка</h3>
+            <p data-i18n="feature_support_text">
+              Сопровождаем после запуска и помогаем развиваться.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="card reveal">
+        <h2 data-i18n="about_block_title">Что дальше?</h2>
+        <p data-i18n="about_block_p1">
+          Замените тексты, добавьте логотип и расширьте блоки под себя.
+          Этот шаблон легко превратить в лендинг или личную страницу.
+        </p>
+        <p data-i18n="about_block_p2">
+          Если нужен полный пакет — мы подготовим структуру, дизайн и
+          тексты под вашу нишу, а также поможем с запуском и аналитикой.
+        </p>
+      </section>
+
+      <section id="contact" class="card reveal">
+        <h2 data-i18n="contact_title">Обратная связь</h2>
+        <p data-i18n="contact_intro">Оставьте сообщение — мы ответим в течение дня.</p>
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/your-id"
+          method="POST"
+          novalidate
+        >
+          <label>
+            <span data-i18n="label_name">Имя</span>
+            <input
+              type="text"
+              name="name"
+              placeholder="Ваше имя"
+              data-i18n-placeholder="ph_name"
+              required
+            />
+            <span class="field-hint" aria-live="polite"></span>
+          </label>
+          <label>
+            <span data-i18n="label_email">Email</span>
+            <input
+              type="email"
+              name="email"
+              placeholder="you@email.com"
+              data-i18n-placeholder="ph_email"
+              required
+            />
+            <span class="field-hint" aria-live="polite"></span>
+          </label>
+          <label>
+            <span data-i18n="label_message">Сообщение</span>
+            <textarea
+              name="message"
+              rows="4"
+              placeholder="Чем можем помочь?"
+              data-i18n-placeholder="ph_message"
+              required
+            ></textarea>
+            <span class="field-hint" aria-live="polite"></span>
+          </label>
+          <button type="submit" class="cta" data-i18n="btn_send">
+            Отправить сообщение
+          </button>
+          <p class="form-status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="reveal">
+      <div class="footer-content">
+        <div data-i18n="footer_rights">© 2026 Простой сайт. Все права защищены.</div>
+        <div class="social-links">
+          <a class="social-link" href="https://t.me/simple-site" target="_blank" rel="noreferrer">
+            <svg aria-hidden="true">
+              <use href="icons.svg#icon-telegram"></use>
+            </svg>
+            Telegram
+          </a>
+          <a class="social-link" href="https://vk.com/simple-site" target="_blank" rel="noreferrer">
+            <svg aria-hidden="true">
+              <use href="icons.svg#icon-vk"></use>
+            </svg>
+            ВКонтакте
+          </a>
+          <a class="social-link" href="https://www.behance.net/simple-site" target="_blank" rel="noreferrer">
+            <svg aria-hidden="true">
+              <use href="icons.svg#icon-behance"></use>
+            </svg>
+            Behance
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
